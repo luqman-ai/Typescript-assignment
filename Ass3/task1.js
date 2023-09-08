@@ -1,4 +1,3 @@
-"use strict";
 function inValue(odd, index, value) {
     odd.splice(index, 0, value);
     return odd;

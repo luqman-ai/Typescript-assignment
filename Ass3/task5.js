@@ -1,4 +1,3 @@
-"use strict";
 function factorial(n) {
     if (n < 0) {
         console.log("factorial is not define for negative number");
@@ -7,11 +6,11 @@ function factorial(n) {
         console.log(1);
     }
     else {
-        let num = 1;
+        var num_1 = 1;
         while (n > 0) {
-            num *= n;
+            num_1 *= n;
             n -= 1;
-            console.log(num);
+            console.log(num_1);
         }
     }
 }

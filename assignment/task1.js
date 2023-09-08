@@ -1,7 +1,6 @@
-"use strict";
 function calculate(number) {
-    let sum = 0;
-    for (let i = 0; i < number.length; i++) {
+    var sum = 0;
+    for (var i = 0; i < number.length; i++) {
         if (number[i] % 2 == 0) {
             sum = sum + number[i];
         }

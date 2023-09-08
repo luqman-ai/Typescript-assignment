@@ -1,4 +1,3 @@
-"use strict";
 function shoppingcart(cart, add, remove, update) {
     if (typeof add == "string") {
         cart.splice(1, remove, add);

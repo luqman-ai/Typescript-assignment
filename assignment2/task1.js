@@ -1,6 +1,5 @@
-"use strict";
-let negtiveN = (array) => {
-    const n = array.filter((nu) => {
+var negtiveN = function (array) {
+    var n = array.filter(function (nu) {
         if (nu >= 0) {
             return nu;
         }

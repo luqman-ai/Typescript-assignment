@@ -1,7 +1,6 @@
-"use strict";
 function findlargestfun(number) {
-    let largest = number[0];
-    for (let i = 0; i < number.length; i++) {
+    var largest = number[0];
+    for (var i = 0; i < number.length; i++) {
         if (number[i] > largest) {
             largest = number[i];
         }
