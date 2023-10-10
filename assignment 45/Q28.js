@@ -1,4 +1,4 @@
-var favorit_Fruit = ["Banana", "Apple", "Mango"];
+let favorit_Fruit = ["Banana", "Apple", "Mango"];
 if (favorit_Fruit.includes("Banana")) {
     console.log("Banana is my favorit fruit");
 }
@@ -14,3 +14,4 @@ if (favorit_Fruit.includes("Apricot")) {
 if (favorit_Fruit.includes("Apple")) {
     console.log("Apple is my most favorit furit");
 }
+export {};

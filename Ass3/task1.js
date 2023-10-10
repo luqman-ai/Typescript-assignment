@@ -3,3 +3,4 @@ function inValue(odd, index, value) {
     return odd;
 }
 console.log(inValue([1, 3, 7, 9], 2, 5));
+export {};

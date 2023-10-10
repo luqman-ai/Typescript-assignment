@@ -1,5 +1,6 @@
 function aera_Circle(radius) {
-    var aera = Math.PI * (radius * radius);
+    let aera = Math.PI * (radius * radius);
     console.log(aera);
 }
 aera_Circle(5);
+export {};

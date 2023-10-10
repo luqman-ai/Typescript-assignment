@@ -1,4 +1,5 @@
-var names = ["Shahid", "Salman", "Usman", "Abu Huraira"];
-var called = names.forEach(function (n) {
+let names = ["Shahid", "Salman", "Usman", "Abu Huraira"];
+const called = names.forEach((n) => {
     console.log(n);
 });
+export {};

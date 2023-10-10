@@ -1,5 +1,5 @@
-var a = 20;
-var b = 25;
+let a = 20;
+let b = 25;
 //test 1
 console.log("a=b? I predict false");
 console.log(a == b);
@@ -30,3 +30,4 @@ console.log(a / b == 0);
 // test 10
 console.log("a/b!= 0 ? i preduct true");
 console.log(a / b != 0);
+export {};

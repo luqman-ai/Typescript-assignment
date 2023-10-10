@@ -1,6 +1,6 @@
 function findlargestfun(number) {
-    var largest = number[0];
-    for (var i = 0; i < number.length; i++) {
+    let largest = number[0];
+    for (let i = 0; i < number.length; i++) {
         if (number[i] > largest) {
             largest = number[i];
         }
@@ -8,3 +8,4 @@ function findlargestfun(number) {
     return largest;
 }
 console.log(findlargestfun([20, 60, 45, 30, 35, 70, 10]));
+export {};

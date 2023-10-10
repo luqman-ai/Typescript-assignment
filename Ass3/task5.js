@@ -6,12 +6,13 @@ function factorial(n) {
         console.log(1);
     }
     else {
-        var num_1 = 1;
+        let num = 1;
         while (n > 0) {
-            num_1 *= n;
+            num *= n;
             n -= 1;
-            console.log(num_1);
+            console.log(num);
         }
     }
 }
 factorial(5);
+export {};

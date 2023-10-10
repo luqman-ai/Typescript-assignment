@@ -1,8 +1,8 @@
-var animals = ["Goat", "Cow", "Buffalo"];
-for (var i = 0; i < animals.length; i++) {
+let animals = ["Goat", "Cow", "Buffalo"];
+for (let i = 0; i < animals.length; i++) {
     console.log(animals[i]);
 }
-for (var i = 0; i < animals.length; i++) {
+for (let i = 0; i < animals.length; i++) {
     switch (animals[i]) {
         case "Goat":
             console.log("Goat is a ver beautiful pet");
@@ -19,3 +19,4 @@ for (var i = 0; i < animals.length; i++) {
     }
 }
 console.log(" these animals a good pet");
+export {};

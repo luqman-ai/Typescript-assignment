@@ -1,4 +1,5 @@
-var names = ["Alice", "Bob", "Chaelie", "David", "Emily"];
-var massage = names.forEach(function (h) {
-    console.log("\"".concat(h, "!\""));
+let names = ["Alice", "Bob", "Chaelie", "David", "Emily"];
+let massage = names.forEach((h) => {
+    console.log(`"${h}!"`);
 });
+export {};

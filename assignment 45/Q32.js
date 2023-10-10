@@ -1,5 +1,5 @@
-var num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-var ordinal = num.forEach(function (n) {
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let ordinal = num.forEach((n) => {
     if (n == 1) {
         console.log("1st");
     }
@@ -28,3 +28,4 @@ var ordinal = num.forEach(function (n) {
         console.log("9th");
     }
 });
+export {};

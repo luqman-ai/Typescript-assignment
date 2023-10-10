@@ -1,4 +1,4 @@
-var stageoflife = function (age) {
+let stageoflife = (age) => {
     if (age < 2) {
         console.log("Baby");
     }
@@ -23,3 +23,4 @@ stageoflife(3);
 stageoflife(10);
 stageoflife(30);
 stageoflife(70);
+export {};

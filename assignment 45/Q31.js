@@ -1,11 +1,12 @@
-var users = ["Ahmad", "Hassan", "Saleem", "Shoaib", "Shahzad"];
-var new_User = ["Faheem", "Kaseem", "Naveed", "Saleem", "Ahmad"];
-var u = new_User.forEach(function (s) {
-    var user_Taken = users.some(function (n) { n.toLowerCase() === s.toUpperCase(); });
+let users = ["Ahmad", "Hassan", "Saleem", "Shoaib", "Shahzad"];
+let new_User = ["Faheem", "Kaseem", "Naveed", "Saleem", "Ahmad"];
+let u = new_User.forEach((s) => {
+    const user_Taken = users.some((n) => { n.toLowerCase() === s.toUpperCase(); });
     if (user_Taken) {
-        console.log("Sorry the '".concat(new_User, "' is already taken. Will you need new User name "));
+        console.log(`Sorry the '${new_User}' is already taken. Will you need new User name `);
     }
     else {
-        console.log("This ".concat(new_User, " is available"));
+        console.log(`This ${new_User} is available`);
     }
 });
+export {};

@@ -6,4 +6,4 @@ else{
     console.log("congratulation! you eraned 10 point")
 }}
 aliencolor("green");
-aliencolor("yellow"):
+aliencolor("yellow");

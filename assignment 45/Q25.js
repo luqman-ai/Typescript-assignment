@@ -1,4 +1,4 @@
-var aliencolor = function (Color) {
+let aliencolor = (Color) => {
     if (Color == "green") {
         console.log("congratulation! you earned 5 points");
     }
@@ -8,3 +8,4 @@ var aliencolor = function (Color) {
 };
 aliencolor("green");
 aliencolor("yellow");
+export {};

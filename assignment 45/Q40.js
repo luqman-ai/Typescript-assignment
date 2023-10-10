@@ -1,7 +1,8 @@
-var magician = ["Joghi", "Bagger", "braywatt"];
-var megician_Name = function (names) {
-    var print = names.forEach((function (n) {
+let magician = ["Joghi", "Bagger", "braywatt"];
+let megician_Name = (names) => {
+    let print = names.forEach((n => {
         console.log(n);
     }));
 };
 megician_Name(magician);
+export {};

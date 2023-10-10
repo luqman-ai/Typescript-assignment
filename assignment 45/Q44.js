@@ -1,12 +1,13 @@
-var creat_car = function (manufacturer, model, option) {
-    var car = {
+let creat_car = (manufacturer, model, option) => {
+    let car = {
         manufacture: manufacturer,
         model: model
     };
-    for (var key in option) {
+    for (let key in option) {
         car[key] = option[key];
     }
     return car;
 };
-var mcar = creat_car("Toyota", "Camry", ["sunroof", "navigation"]);
+let mcar = creat_car("Toyota", "Camry", ["sunroof", "navigation"]);
 console.log(mcar);
+export {};
